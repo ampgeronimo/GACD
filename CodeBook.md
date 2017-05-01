@@ -6,6 +6,7 @@ The code is splitted (by comments) in some sections:
 
 Downloading and loading data
 Manipulating data
+Data
 
 #Downloading and Loading data
 
@@ -25,3 +26,25 @@ Reads the subject_train data.frame to subject_train
 4. subsetting columns with column names containing strings "mean()" or "std()"
 5. reshaping data to skinny format
 6. output data
+
+#Data
+id 
+  id number of the subject
+    01...30
+  
+activity
+  label of the activity
+    WALKING
+    WALKING_UPSTAIRS
+    WALKING_DOWNSTAIRS
+    SITTING
+    STANDING
+    LAYING
+  
+variable
+  kind of variable which average values are calculated
+    mean
+    std
+
+average
+  the average of mean or std values
