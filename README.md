@@ -13,12 +13,12 @@ read all files:
 - 'subject_train.txt': Test subject ID.
 - 'subject_test.txt': Train subject ID.
 
-merge subject_test,y_test,x_test
-merge subject_train,y_train,x_train
+merge subject_test,y_test,x_test using cbind function
+merge subject_train,y_train,x_train using cbind function
 
-merge both tables
+merge both tables above using rbind function
 
-rename column headers
+rename column headers using features.txt
 
 change data in activity column to descriptive activity names using activity_labels.txt
 
