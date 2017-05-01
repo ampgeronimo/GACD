@@ -21,4 +21,7 @@ Reads the subject_train data.frame to subject_train
 #Manipulating Data
 1. merging subject_test,y_test,x_test, subject_train,y_train,x_train into one data frame df
 2. renaming headers using features data frame
-3. changing 
+3. changing data in activity column to descriptive activity names using activity_labels data frame
+4. subsetting columns with column names containing strings "mean()" or "std()"
+5. reshaping data to skinny format
+6. output data
