@@ -1,0 +1,24 @@
+#Code Book
+
+This document describes the code inside run_analysis.R.
+
+The code is splitted (by comments) in some sections:
+
+Downloading and loading data
+Manipulating data
+
+#Downloading and Loading data
+
+Reads the descriptive activity names to activity_labels
+Reads the column names of data to features
+Reads the X_test data frame to x_test
+Reads the y_test data frame to y_test
+Reads the X_train data frame to x_train
+Reads the y_train data frame to y_train
+Reads the subject_test data frame to subject_test
+Reads the subject_train data.frame to subject_train
+
+#Manipulating Data
+1. merging subject_test,y_test,x_test, subject_train,y_train,x_train into one data frame df
+2. renaming headers using features data frame
+3. changing 
