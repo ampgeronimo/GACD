@@ -38,7 +38,4 @@ temp2[,4]<-gsub("\\()","",temp2[,4])
 #tidy data output
 tidy_data<-temp2
 
-#tidy summary data
-summary<-ddply(tidy_data,.(id,activity,variable),summarise,average=mean(measurement))
-
-tidy_data
+write.table(tidy_data,file="R project.txt",row.name=FALSE)
